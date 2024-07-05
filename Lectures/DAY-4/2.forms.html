@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="">
+       <center>
+        <h1>Input field</h1>
+        <input type="text"><br>
+        <input type="password"><br>
+        <input type="color"><br>
+        <input type="time"><br>
+        <input type="date"><br>
+        <hr>
+       </center>
+       <center>
+        <h1>Labels and placeholders</h1>
+        <label for="username">Username: </label>
+        <input type="text" id="username" placeholder="username"><br><br>
+        <label for="password">Password: </label>
+        <input type="password" id="password" placeholder="password"><br><br>
+        <button type="button">Submit</button><br>
+        <hr>
+       </center>
+       <center>
+        <h1>Checkbox</h1>
+        <label for="age">Age</label>
+        <input type="checkbox" placeholder="age" id="age"><br>
+        <label for="age">Age</label>
+        <input type="checkbox" placeholder="age" id="age" checked><hr>
+       </center>
+       <center>
+        <h1>Radio Buttons</h1>
+        <h3>GENDER</h3>
+        <input type="radio" placeholder="gender" id="male" name="gender">
+        <label for="gender">Male</label>
+ 
+        <input type="radio" placeholder="gender" id="female" name="gender">
+        <label for="gender">Female</label><br>
+
+        <label for="volume">Volume</label>
+        <input type="range" min="0" max="100" step="10" value="30"><hr>
+       </center>
+       <center>
+        <h1>Text area</h1>
+        <textarea name="summary" cols="30" rows="10">
+            Textarea
+        </textarea>
+        <br>
+        <h1>Dropdown</h1>
+        <label for="fruits">Choose a fruit</label>
+        <select name="fruits" id="fruits">
+            <option value="apple">Apple</option>
+            <option value="banana">Banana</option>
+            <option value="litchi">Litchi</option>
+            <option value="mango">Mango</option>
+            <option value="grapes">Grapes</option>
+        </select>
+       </center>
+       
+    </form>
+</body>
+</html>
