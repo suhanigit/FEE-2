@@ -1,0 +1,40 @@
+/* Universal Selectors */
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+/* Id selector */
+
+#superheroes {
+    color: greenyellow;
+    background-color: papayawhip;
+    font-weight: 800;
+    text-align: center;
+}
+
+/* class selector */
+
+.Dc {
+    color:blue;
+    font-weight: 900;
+}
+
+/* Element selector */
+
+h1 {
+    color: brown;
+    font-size: 30px;
+    text-decoration: line-through;
+}
+
+/* Attribute selector */
+/* /1st Method/ */
+input[type="text"] {
+    background-color: yellow;
+}
+/* /2nd Method/ */
+[type="password"] {
+    background-color: beige;
+}

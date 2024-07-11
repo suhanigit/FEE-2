@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" type="text/css" href="forms.css"> -->
+    <title>My Form</title>
+    <style>
+    h1{
+        background-color: antiquewhite;
+        }
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: burlywood;
+    }
+    
+    h1, h2, h3 {
+        text-align: center;
+        color: #333;
+    }
+    
+    h1 {
+        font-size: 2em;
+        margin-bottom: 0;
+    }
+    
+    h2 {
+        font-size: 1.5em;
+        margin-top: 0;
+    }
+    
+    h3 {
+        font-size: 1.2em;
+        margin: 20px 0 10px;
+    }
+    
+    form {
+        background-color:#fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 8px;
+        color: #555;
+    }
+    
+    input[type="text"],
+    input[type="date"],
+    input[type="number"],
+    textarea,
+    select {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    
+    input[type="checkbox"],
+    input[type="radio"] {
+        margin-right: 10px;
+    }
+    
+    textarea {
+        resize: vertical;
+    }
+    
+    button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        background-color: #5cb85c;
+        color: #fff;
+        font-size: 1em;
+        cursor: pointer;
+    }
+    
+    button[type="reset"] {
+        background-color: #d9534f;
+    }
+    
+    button:hover {
+        opacity: 0.9;
+    }
+    
+    hr {
+        margin: 20px 0;
+        border: 1px solid #ddd;
+    }
+    </style>
+</head>
+
+<body>
+    <!--first last name father name contact details(dropdown) address(textarea) email addressskills(checkbox) submit button-->
+    <center>
+    <h1>JOB APPLICATION</h1><hr></center>
+    <form>
+    <input type="checkbox" name="email" id="email" checked>
+    <label for="email">Record as suhani8542@gmail.com</label>
+    <br><br>
+    <label for="firstname"><b>First name:</b></label>
+    <input type="text" name="firstname" id="firstname" placeholder="First Name">
+    <br><br>
+    <label for="lastname"><b>Last name:</b></label>
+    <input type="text" name="lastname" id="lastname" placeholder="Last Name">
+    <br><br>
+    <label for="fathername"><b>Father name:</b></label>
+    <input type="text" name="lastname" id="lastname" placeholder="Father Name">
+    <br><br>
+    <label for="phone_no"><b>Phone No.:</b></label>
+    <select>
+        <option value="+91">+91</option>
+        <option value="+01">01</option>
+        <option value="+92">+92</option>
+        <option value="+81">+89</option>
+    </select>
+    <input type="number" name="phone_no" id="phone_no" placeholder="Phone no">
+    <br><br>
+    <label for="dob"><b>Date Of Birth:</b></label>
+    <input type="date" name="dob" id="dob">
+    <br><br>
+    <label for="gender"><b>Gender:</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+    <input type="radio" name="gender" id="male">
+    <label for="gender">Male</label><br>
+    <input type="radio" name="gender" id="female">
+    <label for="gender">Female</label><br>
+    <input type="radio" name="gender" id="others">
+    <label for="gender">Others</label>
+    <br><br>
+    <label for="nationality"><b>Nationality :</b></label>
+    <select>
+        <option value="Indian">Indian</option>
+        <option value="Korean">Korean</option>
+        <option value="japense">Japanese</option>
+        <option value="canadian">Canadian</option>
+        <option value="chinese">Chinese</option>
+    </select>
+    <br><br>
+    <label for="address"><b>Address:</b></label><br>
+    <textarea name="address" id="address" cols="35" rows="5" placeholder="Permanent Address" required></textarea>
+    <br><br>
+    <label for="caddress"><b> Correspondense Address:</b></label><br>
+    <textarea name="caddress" id="caddress" cols="35" rows="5" placeholder="Correspondense Address  (if any)" ></textarea>
+    <br><br>
+    <label for="email"><b>E-mail:</b></label>
+    <input type="email" name="email" id="email" placeholder="Email Id">
+    <br><br>
+    <label for="skills"><b>Skills:</b></label><br>
+    <label for="python">Python</label>
+    <input type="checkbox" name="python" id="python"><br>
+    <label for="html">HTML</label>
+    <input type="checkbox" name="html" id="html"><br>
+    <label for="C">C language</label>
+    <input type="checkbox" name="C" id="C"><br>
+    <label for="DSA">DSA</label>
+    <input type="checkbox" name="DSA" id="DSA"><br>
+    <label for="dbms">DBMS</label>
+    <input type="checkbox" name="dbms" id="dbms"><br>
+    <label for="cn">Computer Networks</label>
+    <input type="checkbox" name="cn" id="cn"><br>
+    <label for="c++">C++</label>
+    <input type="checkbox" name="c++" id="c++"><br>
+    <label for="java">Java</label>
+    <input type="checkbox" name="java" id="java"><br>
+    <label for="sql">SQL</label>
+    <input type="checkbox" name="sql" id="sql"><br>
+    <label for="javas">Javascript</label>
+    <input type="checkbox" name="javas" id="javas">
+    <br><br>
+    <label for="experience"><b>Years Of Experience</label>
+    <select>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 or more</option>
+    </select>
+    <br><br><br>
+    <label for="qualification"><b>Education Qualifications: </b></label><br><br>
+    <label for="10certifiate">X Certificate -></label>
+    <input type="file" name="certifiate" id="certifiate" required><br><br>
+    <label for="12certifiate">XII Certificate -></label>
+    <input type="file" name="12certifiate" id="12certifiate" required><br><br>
+    <label for="Resume">Resume -></label>
+    <input type="file" name="Resume" id="Resume" required>
+    <br><br><br>
+    <center><button type="button">Submit</button>
+    </center>
+    </form>
+</body>
+</html>
