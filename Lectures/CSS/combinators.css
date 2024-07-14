@@ -1,0 +1,22 @@
+/* //Decendent combinator selector */
+ul li a{
+    color: red;
+    font-size: 20px;
+}
+
+/*Child Combinator selector*/
+/* agr indermediate child ko style krna ha greater then use kro */
+ol > li{
+    background-color: yellowgreen;
+}
+
+/*Adjacent combinator selector*/
+/*Flow is downwards only*/
+h3+p{
+    border-top: 2px solid blueviolet;
+}
+
+/* Sibling combinator selector */
+div~p{
+    background-color: chocolate;
+}
