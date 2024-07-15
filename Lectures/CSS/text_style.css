@@ -1,0 +1,36 @@
+/* Text align */
+h1{
+    text-align: center;
+    /* text-align: end; */
+    /* text-align: start; */
+    /* text-align: right; */
+    /* text-align: left; */
+    /* text-align: center; */
+    color:crimson;
+}
+
+p{
+    text-align: justify;
+}
+a{
+    text-decoration: line-through;
+    /* text-decoration: none; */
+}
+
+h3{
+    text-shadow: 10px 10px 5px red;
+    color: transparent;
+}
+ 
+
+h4{
+    /* text-transform: capitalize; */
+    /* text-transform: lowercase; */
+    text-transform: uppercase;        /*text transform-pehla letter capital hr word ka */
+    text-indent:30px ;              /* text indent aage space create krta ha */
+    letter-spacing: 20px;           /* letter spacing spaces create krne ke liye use hota ha */
+    word-spacing: 50px;
+}
+
+      
+
