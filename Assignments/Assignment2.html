@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Admission Form</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background: url(https://cuiet.codebrigade.in/images/Chitkara_University_pic.jpg) no-repeat center center fixed;
+            background-size: cover;
+        }
+        h1{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .form{
+            height: 700px;
+            width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            border: 2px solid black;
+            background-color:darkgray;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-style: outset ;
+        }
+    </style>
+</head>
+<body>
+    <div class="form">
+        <h1>COLLEGE ADMISSION FORM</h1><hr><br>
+        <!-- name gender phone no email mumy dady info address qualifications -->
+         <label for="name">Name:</label>&nbsp;&nbsp;
+         <input type="text" id="name"><br><br>
+         <label for="class">Class:</label>&nbsp;&nbsp;
+         <input type="text" id="class"><br><br>
+         <label for="gender">Gender:</label>
+         <input type="radio" name="gender" id="male">
+         <label for="male">Male</label>&nbsp;&nbsp;&nbsp;&nbsp;
+         <input type="radio" name="gender" id="female">
+         <label for="female">Female</label>
+         <br><br>
+         <label for="dob">Date of Birth:</label>
+         <input type="date" name="dob" id="dob">
+         <br><br>
+         <label for="phone_no">Phone No.:</label>
+         <select>
+            <option value="+91">+91</option>
+            <option value="+01">01</option>
+            <option value="+92">+92</option>
+            <option value="+81">+89</option>
+         </select>
+         <input type="number" name="phone_no" id="phone_no">
+         <br><br>
+         <label for="email">Email-Id</label>
+         <input type="email" name="email" id="email">
+         <br><br>
+         <label for="mother_name">Mother Name:</label>
+         <input type="text" id="mother_name">
+         <br><br>
+         <label for="m-occupation">Mother's Occupation:</label>
+         <input type="text" name="Occupation" id="m-occupation">
+         <br><br>
+         <label for="father_name">Father Name:</label>&nbsp;&nbsp;
+         <input type="text" name="father_name" id="father_name">
+         <br><br>
+         <label for="f-occupation">Father's Occupation:</label>
+         <input type="text" name="Occupation" id="f-occupation">
+         <br><br>
+         <label for="address">Actual Address:</label><br>
+         <textarea name="address" id="address" cols="30" rows="5"></textarea>
+         <br><br>
+         <label for="c-address">Correspondense Address:</label><br>
+         <textarea name="c-address" id="c-address" cols="30" rows="5"></textarea>
+         <br><br>
+    </div>
+</body>
+</html>

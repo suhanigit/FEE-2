@@ -1,0 +1,13 @@
+#container{
+    background-color:crimson;
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    display: flex;
+}
+.items{
+    width: 100px;
+    height: 100px;
+    align-content:end;
+    border: 1px solid black;
+}
