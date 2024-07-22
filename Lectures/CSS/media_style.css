@@ -1,0 +1,26 @@
+section{
+    border: 2px solid blue;
+    padding: 1rem; 
+    background-color: burlywood;
+}
+h1{
+    font-size: 3rem;
+}
+
+/* MEDIA QUERIES */
+@media(max-width:520px){
+    section{
+        background-color: chartreuse;
+    }
+}
+@media(orientation:landscape){
+    section p{
+        color: blueviolet;
+        background-color: yellow;
+    }
+}
+@media(orientation:portrait){
+    section p{
+        background-color: crimson;
+    }
+}

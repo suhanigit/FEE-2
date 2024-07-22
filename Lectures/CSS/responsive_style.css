@@ -1,0 +1,24 @@
+nav{
+    background-color:darkblue;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+ul li{
+    list-style: none;
+    justify-content: space-evenly;
+    text-align: center;
+    display: inline;
+    color: black;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+ul li a{
+    padding-left: 50px;
+}
+a{
+    padding-left: 50px;
+    color:white;
+    text-decoration: none;
+}
