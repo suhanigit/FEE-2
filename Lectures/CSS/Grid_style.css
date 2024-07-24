@@ -1,0 +1,27 @@
+section{
+    width: 80vw;
+    margin: 20px auto;
+    display: grid;
+    /* grid-template-columns: 250px 250px 250px; */
+    /* grid-template-rows: 250px 250px 250px; */
+    /* grid-template-rows: repeat(3,300px); */
+    /* grid-template-columns: repeat(3,300px);*/
+
+
+    /* GRID GAP */
+    /* row-gap: 20px; */
+    /* column-gap: 20px;  */
+    /* grid-row: 20px 10px; */
+    gap: 10px;
+
+    
+    /* responsive */
+    /* grid-template-columns: repeat
+    (auto-fill,minmax(300px,1fr));
+} */
+    /* grid-template-rows: repeat(3,1fr); */
+    grid-template-columns: repeat(3,300px);
+}
+div{
+    height: 50px;
+}
