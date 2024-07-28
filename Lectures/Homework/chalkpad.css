@@ -21,10 +21,12 @@ body{
     padding-top:20px;
     /* /* margin-top: 80px; */
     margin-inline-end: 5px;
-    float: right;
-    padding-right: 100px;
-    margin-bottom: 8px; 
-    padding-right:30px;
+    /* float: right; */
+    /* padding-right: 100px; */
+    margin-bottom: 8px;
+    position: relative;
+    left: 830px;
+    /* padding-right:30px; */
     width: 285px;
     height: 550px;
     border: 1px solid black;
