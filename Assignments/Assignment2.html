@@ -11,72 +11,99 @@
         }
         body{
             background: url(https://cuiet.codebrigade.in/images/Chitkara_University_pic.jpg) no-repeat center center fixed;
-            background-size: cover;
+            background-size:cover;
         }
         h1{
             text-align: center;
             margin-bottom: 20px;
+            background-color: black;
+            color: blanchedalmond;
+            border-radius: 15px;
+            border-style: dashed;
         }
         .form{
             height: 700px;
             width: 500px;
             margin-left: auto;
             margin-right: auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
             border: 2px solid black;
-            background-color:darkgray;
+            background-image: linear-gradient(black,grey,white);
             padding: 30px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-style: outset ;
+            border-style: outset;
+            border-radius: 20px;
         }
+        button{
+            padding:3px 3px;
+            background-color: black;
+            color: blanchedalmond;
+            margin-top: 15px;
+        }
+        
     </style>
 </head>
 <body>
     <div class="form">
         <h1>COLLEGE ADMISSION FORM</h1><hr><br>
         <!-- name gender phone no email mumy dady info address qualifications -->
-         <label for="name">Name:</label>&nbsp;&nbsp;
-         <input type="text" id="name"><br><br>
-         <label for="class">Class:</label>&nbsp;&nbsp;
-         <input type="text" id="class"><br><br>
-         <label for="gender">Gender:</label>
+         <label for="name"><b>Name:</b></label>&nbsp;&nbsp;
+         <input type="text" id="name" size="25" placeholder="Enter your Name"><br><br>
+         <label for="class"><b>Class:</b></label>&nbsp;&nbsp;
+         <input type="text" id="class" size="25" placeholder="Enter your Class"><br><br>
+         <label for="gender"><b>Gender:</b></label>
          <input type="radio" name="gender" id="male">
          <label for="male">Male</label>&nbsp;&nbsp;&nbsp;&nbsp;
          <input type="radio" name="gender" id="female">
          <label for="female">Female</label>
          <br><br>
-         <label for="dob">Date of Birth:</label>
+         <label for="dob"><b>Date of Birth:</b></label>&nbsp;&nbsp;
          <input type="date" name="dob" id="dob">
          <br><br>
-         <label for="phone_no">Phone No.:</label>
+         <label for="phone_no"><b>Phone No.:</b></label>&nbsp;&nbsp;
          <select>
             <option value="+91">+91</option>
             <option value="+01">01</option>
             <option value="+92">+92</option>
             <option value="+81">+89</option>
          </select>
-         <input type="number" name="phone_no" id="phone_no">
+         <input type="number" name="phone_no" id="phone_no" placeholder="Enter your Phone No." size="25">
          <br><br>
-         <label for="email">Email-Id</label>
-         <input type="email" name="email" id="email">
+         <label for="email"><b>Email-Id:</b></label>&nbsp;&nbsp;&nbsp;
+         <input type="email" name="email" id="email" placeholder="Enter your Email-Id" size="25">
          <br><br>
-         <label for="mother_name">Mother Name:</label>
-         <input type="text" id="mother_name">
+         <label for="mother_name"><b>Mother Name:</b></label>&nbsp;&nbsp;
+         <input type="text" id="mother_name" placeholder="Mother's Name" size="25">
          <br><br>
-         <label for="m-occupation">Mother's Occupation:</label>
-         <input type="text" name="Occupation" id="m-occupation">
+         <label for="m-occupation"></label><b>Mother's Occupation:</b></label>&nbsp;&nbsp;
+         <input type="text" name="Occupation" id="m-occupation" placeholder="Occupation" size="25">
          <br><br>
-         <label for="father_name">Father Name:</label>&nbsp;&nbsp;
-         <input type="text" name="father_name" id="father_name">
+         <label for="father_name"><b>Father Name:</b></label>&nbsp;&nbsp;
+         <input type="text" name="father_name" id="father_name" placeholder="Father's Name" size="25">
          <br><br>
-         <label for="f-occupation">Father's Occupation:</label>
-         <input type="text" name="Occupation" id="f-occupation">
+         <label for="f-occupation"><b>Father's Occupation:</b></label>&nbsp;&nbsp;
+         <input type="text" name="Occupation" id="f-occupation" placeholder="Occupation" size="25">
          <br><br>
-         <label for="address">Actual Address:</label><br>
-         <textarea name="address" id="address" cols="30" rows="5"></textarea>
-         <br><br>
-         <label for="c-address">Correspondense Address:</label><br>
-         <textarea name="c-address" id="c-address" cols="30" rows="5"></textarea>
-         <br><br>
+         <label for="address"><b>Actual Address:</b></label><br>
+         <textarea name="address" id="address" cols="30" rows="3"></textarea>
+         <br>
+         <label for="c-address"><b>Correspondense Address:</b></label><br>
+         <textarea name="c-address" id="c-address" cols="30" rows="3"></textarea>
+         <br>
+         <label for="qualification"><b>Education Qualifications: </b></label><br>
+         <label for="10certifiate">X Certificate =></label>&nbsp;&nbsp;&nbsp;
+         <input type="file" name="certifiate" id="certifiate" required><br>
+         <label for="12certifiate">XII Certificate =></label>&nbsp;
+         <input type="file" name="12certifiate" id="12certifiate" required><br>
+         <label for="Resume">Resume =></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <input type="file" name="Resume" id="Resume" required>
+         <br>
+         <center>
+            <a href="#">
+         <button type="button" value="SUBMIT">SUBMIT</button>
+            </a>
+         </center>
     </div>
 </body>
 </html>
