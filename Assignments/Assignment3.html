@@ -24,13 +24,15 @@
       }
       .remaining {
         margin-top: 20px;
-        background-color: antiquewhite;
+        background-color:darkblue;
+        color: aliceblue;
       }
       .thankYou {
         width: 80%;
         text-align: center;
         align-content: center;
-        background-color: antiquewhite;
+        background-color:darkblue;
+        color: aliceblue;
       }
     </style>
   </head>
@@ -92,27 +94,20 @@
               placeholder="Search"
               aria-label="Search"
             />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
+            <button type="button" class="btn btn-primary">
+              Submit<span class="badge text-bg-secondary">4</span>
+          </button>
           </form>
         </div>
       </div>
     </nav>
     <main>
-      <div class="hero">
-        <img
-          src="https://ewm.swiss/application/files/8216/1597/9679/E-commerce_web_design_EWM_SA_Digital_Agency_Geneva.jpg"
-          class="img-fluid"
-          alt="Not found"
-          width="100%"
-        />
         <div class="hero_base">
-          <center><h2 class="fst-italic">New Trends</h2></center>
+          <center><h2 class="fst-italic"> New Trends</h2></center>
           <div class="d-flex p-2 justify-content-evenly">
             <div class="card" style="width: 18rem">
               <img
-                src="https://tse1.mm.bing.net/th?id=OIP.hF7QTj2zZqAf4Mu0SpB6MgHaE_&pid=Api&P=0&h=180"
+                src="https://wallpapercave.com/wp/wp1866286.jpg"
                 class="card-img-top"
                 alt="..."
                 height="220px"
@@ -120,15 +115,15 @@
               <div class="card-body">
                 <h5 class="card-title">New Fashion</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  <i>Some quick example text to build on the card title and make up
+                  the bulk of the card's content.</i>
                 </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="#" class="btn btn-warning">Click</a>
               </div>
             </div>
             <div class="card" style="width: 18rem">
               <img
-                src="https://www.paldrop.com/wp-content/uploads/2018/09/must-have-kitchen-appliances.jpeg"
+                src="https://tse1.mm.bing.net/th?id=OIP.E6h7x5ZJOi3-K4OsLb3urAHaE7&pid=Api&P=0&h=180"
                 class="card-img-top"
                 alt="..."
                 height="220px"
@@ -136,10 +131,10 @@
               <div class="card-body">
                 <h5 class="card-title">New Appliances</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  <i>Some quick example text to build on the card title and make up
+                  the bulk of the card's content.</i>
                 </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="#" class="btn btn-warning">Click</a>
               </div>
             </div>
             <div class="card" style="width: 18rem">
@@ -149,17 +144,18 @@
                 alt="..."
               />
               <div class="card-body">
-                <h5 class="card-title">Computers</h5>
+                <h5 class="card-title">Electronic Machines</h5>
                 <p class="card-text">
+                  <i>
                   Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  the bulk of the card's content.</i>
                 </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="#" class="btn btn-warning">Click</a>
               </div>
             </div>
             <div class="card" style="width: 18rem">
               <img
-                src="https://images.pexels.com/photos/207636/pexels-photo-207636.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+                src="https://tse1.mm.bing.net/th?id=OIP.9j0kj9e2UhR1jB6q-9MviAHaEt&pid=Api&P=0&h=180"
                 class="card-img-top"
                 alt="..."
                 height="220px"
@@ -167,52 +163,59 @@
               <div class="card-body">
                 <h5 class="card-title">Books</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  <i>Some quick example text to build on the card title and make up
+                  the bulk of the card's content.</i>
                 </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="#" class="btn btn-warning">Click</a>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      
       <div class="remaining d-flex p-2 justify-content-evenly">
-        <div class="thankYou">
-          <h2 class="fs-1">Thank You!</h2>
-        </div>
         <div class="contactUs">
           <center><h2>Contact Us</h2></center>
           <form class="row g-3">
             <div class="col-md-3">
-              <label for="name" class="form-label">Full Name</label>
+              <label for="name" class="form-label">Name</label>
               <input type="text" class="form-control" id="name" />
             </div>
             <div class="col-md-3">
               <label for="inputEmail" class="form-label">Email</label>
               <input type="email" class="form-control" id="inputEmail" />
             </div>
-            <div class="col-md-4">
-              <label for="inputAddress" class="form-label">Address</label>
-              <input
-                type="text"
-                class="form-control"
-                id="inputAddress"
-                placeholder="1234 Main St"
-              />
-            </div>
             <div class="col-md-6">
               <label for="inputCity" class="form-label">City</label>
               <input type="text" class="form-control" id="inputCity" />
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6">
               <label for="inputState" class="form-label">State</label>
               <select id="inputState" class="form-select">
                 <option selected>Choose...</option>
                 <option>...</option>
               </select>
             </div>
+
+            <div class="col-md-6">
+              <label for="inputAddress" class="form-label">Address</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputAddress"
+                placeholder="#1234 city"
+              />
+            </div>
+
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Filled the form</label>
+            </div>
+
             <div class="col-12">
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <center><button type="submit" class="btn btn-warning">Submit</button>
+              </center>
             </div>
           </form>
         </div>
