@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function downloadFile(url)
+        {
+            console.log("file is being downloaded");
+            setTimeout(() => {
+                var a = url.split("/").pop();
+                // download(path);
+                console.log(`File is downlaoded ${a}`);
+                compressFile(a);
+            }, 2000);
+        }
+
+        function compressFile(path)
+        {
+            console.log("File compressing begin");
+            setTimeout(() => {
+                var b = path.replace('.mp3','.zip');
+                // var b = path.split(".")[0] + ".zip";
+                // compress(comp);
+                console.log(`File is compresssed ${b}`);
+                uploadFile(b);
+            }, 2000);
+        }
+
+        function uploadFile(path){
+            console.log("File is being Uploaded");
+            setTimeout(() => {
+                const c = "http://LocalStorage"  + path;
+                console.log(`Uploading successful ${c}`);
+                console.log("Execution ends");
+            }, 2000);
+        }
+        downloadFile("https.//www.facebook.com/abc.mp3");
+    </script>
+</body>
+</html>
