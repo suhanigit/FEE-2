@@ -10,7 +10,7 @@ Ajax:- Mechanism jiske through hm API ke data ko access krte ha (IN ASYNCHRONOUS
 
 let url = "https://catfact.ninja/fact";
 
-// //2.2-> CHaining
+// //4-> Chaining
 // fetch(url)
 //     .then((res)=>{
 //         return res.json();
@@ -34,7 +34,12 @@ let url = "https://catfact.ninja/fact";
 //         })
 // }).catch((err)=>{
 //     console.log(`Wrong API data + ${err}`);
-// })
+// });
 
-//1.) fetch by default promise return krta ha
+
+
+
+
+// 1 
+// fetch by default promise return krta ha
 // console.log(fetch(url));  

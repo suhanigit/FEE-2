@@ -1,10 +1,17 @@
 let url = "https://catfact.ninja/fact";
 
 async function getData(){
+    try{
     let res = await fetch(url);
-    let adta = await fetch(url);  
+    let data = await fetch(url);  
     // console.log(res.json);
     console.log(res);
+    console.log(data);
+    console.log(data.fact);
+    }
+    catch(e) {
+        console.log("Error!",e);
+    }
 }
 getData();
 
@@ -14,3 +21,4 @@ initially data present ni hota ha API mai toh async undefined return krta ha
 Problem resolved using AWAIT--> await will wait until the data is finally fetched from url
                             --> promise ko return krega
 */
+
