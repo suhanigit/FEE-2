@@ -1,0 +1,9 @@
+.Books{
+    background-color:blanchedalmond;
+    border: 2px solid black;
+    color: crimson;
+    gap: 3rem;
+    height: 300px;
+    width: 350px;
+    padding: 5px;
+}

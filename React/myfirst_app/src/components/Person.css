@@ -1,0 +1,9 @@
+.Person{
+    background-color: aliceblue;
+    border: 2px solid black;
+    color: brown;
+    gap: 3rem;
+    height: 300px;
+    width: 350px;
+    padding: 5px;
+}
